@@ -1,0 +1,19 @@
+{
+  "name": "kloter-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "4.js",
+  "scripts": {
+    "dev": "nodemon 4.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
