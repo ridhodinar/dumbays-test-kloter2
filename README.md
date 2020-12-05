@@ -19,7 +19,9 @@ Untuk menjalankan setiap program .js, ketik:
 $ node 1.js #ubah sesuai file .js yang ingin dijalankan
 ```
 
-Untuk pengaturan database pada soal nomor 4, dapat dilakukan dengan kode di bawah ini dalam file 4.js
+Sebelum menjalankan file 4.js, buat database beserta table nya terlebih dahulu seperti yang telah dijelaskan pada soal nomer 4.
+
+Untuk pengaturan database pada soal nomor 4, dapat dilakukan dengan kode di bawah ini dalam file 4.js.
 
 ```js
 const con = mysql.createConnection({
