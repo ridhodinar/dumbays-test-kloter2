@@ -19,9 +19,24 @@ Untuk menjalankan setiap program .js, ketik:
 $ node 1.js #ubah sesuai file .js yang ingin dijalankan
 ```
 
-Sebelum menjalankan file 4.js, buat database beserta table nya terlebih dahulu seperti yang telah dijelaskan pada soal nomer 4.
+Sebelum menjalankan file 4.js, buat database dengan nama `frozen_food` beserta table nya terlebih dahulu seperti yang telah dijelaskan pada soal nomer 4
 
-Untuk pengaturan database pada soal nomor 4, dapat dilakukan dengan kode di bawah ini dalam file 4.js.
+- products
+  - id
+  - name
+  - photos
+  - description
+  - nutrisi
+  - serving_size
+  - id_distributor
+
+- distributors 
+  - id
+  - name
+  - address
+
+
+Untuk pengaturan database pada soal nomor 4, dapat dilakukan dengan kode di bawah ini dalam file 4.js
 
 ```js
 const con = mysql.createConnection({
